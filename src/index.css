@@ -1,0 +1,451 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #721c24;
+  --color-brand-hover: #5c131a;
+  --color-brand-active: #460910;
+  --color-brand-soft: #f6f2f4;
+  --color-brand-muted: #d9c5cb;
+
+  --color-cherry: #721c24;
+  --color-cherry-hover: #5c131a;
+  --color-cherry-active: #460910;
+  --color-cherry-soft: #f6f2f4;
+  --color-cherry-muted: #d9c5cb;
+
+  --color-navy-dark: #0b111e;
+  --color-navy-primary: #0f172a;
+  --color-navy-surface: #1e293b;
+  --color-navy-muted: #334155;
+
+  --color-canvas-bg: #f8fafc;
+  --color-canvas-surface: #ffffff;
+  --color-canvas-border: #e2e8f0;
+
+  --color-slate-border: #e2e8f0;
+  --color-slate-muted: #64748b;
+  --color-slate-text: #0f172a;
+
+  --color-copper: #721c24;
+  --color-copper-hover: #5c131a;
+  --color-copper-soft: #f6f2f4;
+  --color-copper-muted: #d9c5cb;
+
+  /* Deep Multi-Layered Ground-Plane Shadows */
+  --shadow-2xs: 0 1px 3px 0 rgba(15, 23, 42, 0.08);
+  --shadow-xs: 0 2px 6px 0 rgba(15, 23, 42, 0.12);
+  --shadow-sm: 0 4px 10px -2px rgba(15, 23, 42, 0.14), 0 2px 4px -1px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 10px 22px -4px rgba(15, 23, 42, 0.20), 0 4px 10px -2px rgba(15, 23, 42, 0.12);
+  --shadow-lg: 0 18px 36px -6px rgba(15, 23, 42, 0.26), 0 8px 18px -3px rgba(15, 23, 42, 0.16);
+  --shadow-xl: 0 28px 56px -10px rgba(15, 23, 42, 0.32), 0 12px 24px -4px rgba(15, 23, 42, 0.18);
+  --shadow-2xl: 0 42px 84px -14px rgba(15, 23, 42, 0.42), 0 18px 36px -6px rgba(15, 23, 42, 0.24);
+}
+
+@layer base {
+  :root {
+    --app-font: "Vazirmatn", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-serif: var(--app-font);
+    --font-sans: var(--app-font);
+
+    /* Liqui Design Tokens */
+    --lq-radius: 16px;
+    --lq-text: rgba(15, 23, 42, 0.95);
+    --lq-text-dim: rgba(100, 116, 139, 0.7);
+    --lq-tint: rgba(255, 255, 255, 0.48);
+    --lq-tint-deep: rgba(255, 255, 255, 0.14);
+    --lq-rim-hi: rgba(255, 255, 255, 0.85);
+    --lq-rim-lo: rgba(255, 255, 255, 0.28);
+    --lq-shadow: 0 24px 60px rgba(10, 15, 40, 0.35), 0 4px 14px rgba(10, 15, 40, 0.18);
+    --lq-highlight: rgba(255, 255, 255, 0.5);
+    --lq-control: rgba(255, 255, 255, 0.72);
+    --lq-control-rim: rgba(28, 28, 40, 0.16);
+    --lq-accent: #721c24;
+    --lq-danger: #e5484d;
+    --lq-danger-text: #c1272c;
+    --lq-scrim: rgba(12, 14, 28, 0.32);
+  }
+
+  .dark {
+    --lq-text: rgba(245, 246, 255, 0.96);
+    --lq-text-dim: rgba(245, 246, 255, 0.55);
+    --lq-tint: rgba(30, 32, 46, 0.62);
+    --lq-tint-deep: rgba(18, 20, 32, 0.4);
+    --lq-rim-hi: rgba(255, 255, 255, 0.5);
+    --lq-rim-lo: rgba(255, 255, 255, 0.12);
+    --lq-shadow: 0 24px 60px rgba(0, 0, 5, 0.55), 0 4px 14px rgba(0, 0, 5, 0.35);
+    --lq-highlight: rgba(255, 255, 255, 0.18);
+    --lq-control: rgba(126, 128, 146, 0.3);
+    --lq-control-rim: rgba(255, 255, 255, 0.22);
+    --lq-accent: #721c24;
+    --lq-danger: #ff7076;
+    --lq-danger-text: #ff7076;
+    --lq-scrim: rgba(0, 0, 6, 0.48);
+  }
+
+  html {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background: linear-gradient(165deg, #ffffff 0%, #fafaf9 60%, #f8fafc 100%);
+    background-color: #fafaf9;
+    background-attachment: fixed;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: rtl;
+    text-align: right;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    min-height: 100%;
+    min-height: 100dvh;
+    position: relative;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    overscroll-behavior-y: none;
+  }
+
+  #root {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    height: 100%;
+    min-height: 100%;
+  }
+}
+
+/* Prevent iOS Safari from auto-zooming into inputs on focus on mobile/touch screens */
+@media screen and (max-width: 1024px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
+.font-serif {
+  font-family: var(--font-serif, var(--app-font)) !important;
+  font-weight: 600;
+}
+
+.font-sans {
+  font-family: var(--font-sans, var(--app-font)) !important;
+}
+
+.font-mono {
+  font-family: var(--app-font), system-ui, monospace !important;
+  font-variant-numeric: tabular-nums;
+}
+
+button, input, select, textarea {
+  font-family: var(--app-font);
+}
+
+/* ─── Premium Liquid Glass 3D & Spatial Surface Utilities ─── */
+
+/* 1. Main Liquid Glass Shell — Floating glass foundation with specular edge and deep ambient shadow */
+.glass-panel-vitality, .apple-glass-shell {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.72) 100%);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 
+    0 44px 100px -16px rgba(15, 23, 42, 0.38),
+    0 22px 48px -6px rgba(15, 23, 42, 0.24),
+    0 8px 18px -2px rgba(15, 23, 42, 0.14),
+    0 1px 0 0 rgba(255, 255, 255, 0.95) inset,
+    0 -1px 0 0 rgba(0, 0, 0, 0.06) inset;
+}
+
+/* 2. Liquid Glass 3D Card — Multi-layer specular refraction, crisp rim highlight, and deep physical lift */
+.clay-card, .morphic-card, .apple-glass-card, .liquid-glass-3d {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0.78) 100%);
+  backdrop-filter: blur(20px) saturate(190%);
+  -webkit-backdrop-filter: blur(20px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.92);
+  box-shadow: 
+    0 34px 76px -12px rgba(15, 23, 42, 0.32),
+    0 18px 38px -6px rgba(15, 23, 42, 0.22),
+    0 6px 14px -2px rgba(15, 23, 42, 0.14),
+    0 1px 0 0 rgba(255, 255, 255, 1) inset,
+    0 0 0 1px rgba(255, 255, 255, 0.65) inset;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.clay-card:hover, .morphic-card:hover, .apple-glass-card:hover, .liquid-glass-3d:hover {
+  transform: translateY(-3px);
+  border-color: rgba(255, 255, 255, 1);
+  box-shadow: 
+    0 52px 108px -14px rgba(15, 23, 42, 0.42),
+    0 26px 52px -6px rgba(15, 23, 42, 0.28),
+    0 10px 22px -2px rgba(15, 23, 42, 0.18),
+    0 1px 0 0 rgba(255, 255, 255, 1) inset,
+    0 0 0 1px rgba(255, 255, 255, 0.85) inset;
+}
+
+/* 3. Subtle Glass 3D Card (Nested Surfaces, Lists, Modules) */
+.clay-card-subtle, .morphic-card-subtle, .apple-glass-subtle {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.82) 0%, rgba(248, 250, 252, 0.68) 100%);
+  backdrop-filter: blur(16px) saturate(170%);
+  -webkit-backdrop-filter: blur(16px) saturate(170%);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 
+    0 20px 46px -6px rgba(15, 23, 42, 0.22),
+    0 10px 22px -3px rgba(15, 23, 42, 0.14),
+    0 3px 8px -1px rgba(15, 23, 42, 0.09),
+    0 1px 0 0 rgba(255, 255, 255, 0.95) inset;
+}
+
+/* 4. Tactile Liquid 3D Tile (Interactive controls, items, buttons) */
+.tactile-tile-3d, .morphic-tile, .apple-3d-tile {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.84) 100%);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.90);
+  box-shadow: 
+    0 10px 24px -4px rgba(15, 23, 42, 0.18),
+    0 4px 10px -1px rgba(15, 23, 42, 0.12),
+    0 1px 0 0 rgba(255, 255, 255, 1) inset;
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.18s ease, background 0.18s ease;
+}
+
+.tactile-tile-3d:hover, .morphic-tile:hover, .apple-3d-tile:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 1);
+  box-shadow: 
+    0 18px 36px -6px rgba(15, 23, 42, 0.25),
+    0 8px 16px -2px rgba(15, 23, 42, 0.16),
+    0 1px 0 0 rgba(255, 255, 255, 1) inset;
+}
+
+.tactile-tile-3d:active, .morphic-tile:active, .apple-3d-tile:active {
+  transform: translateY(1px);
+  box-shadow: 
+    0 4px 10px -2px rgba(15, 23, 42, 0.16),
+    0 1px 0 0 rgba(255, 255, 255, 0.8) inset;
+}
+
+/* 5. Selected / Active 3D Tile */
+.tactile-tile-3d-active, .morphic-tile-active, .apple-glass-active {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%) !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.30) !important;
+  box-shadow: 
+    0 22px 46px -6px rgba(15, 23, 42, 0.50),
+    0 10px 22px -2px rgba(15, 23, 42, 0.32),
+    0 1px 0 0 rgba(255, 255, 255, 0.35) inset !important;
+  transform: translateY(-1px);
+}
+
+/* 6. Primary and Light Buttons */
+.clay-button-primary, .morphic-button-primary, .apple-3d-button {
+  background: linear-gradient(135deg, #721c24 0%, #5c131a 50%, #460910 100%) !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 
+    0 20px 42px -6px rgba(114, 28, 36, 0.48),
+    0 8px 20px -2px rgba(114, 28, 36, 0.30),
+    0 1px 0 rgba(255, 255, 255, 0.35) inset;
+  transition: transform 0.16s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.16s ease, opacity 0.12s ease;
+}
+
+.clay-button-primary:hover, .morphic-button-primary:hover, .apple-3d-button:hover {
+  transform: translateY(-1.5px);
+  box-shadow: 
+    0 28px 56px -6px rgba(114, 28, 36, 0.55),
+    0 12px 26px -2px rgba(114, 28, 36, 0.36),
+    0 1px 0 rgba(255, 255, 255, 0.4) inset;
+  opacity: 0.98;
+}
+
+.clay-button-primary:active, .morphic-button-primary:active, .apple-3d-button:active {
+  transform: translateY(1px);
+  box-shadow: 
+    0 8px 20px -2px rgba(114, 28, 36, 0.35),
+    0 1px 0 rgba(255, 255, 255, 0.2) inset;
+  opacity: 0.92;
+}
+
+.clay-button-pastel, .morphic-button-light, .apple-glass-button-light {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.92) 0%, rgba(241, 245, 249, 0.82) 100%);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  color: #0f172a;
+  box-shadow: 
+    0 10px 24px -2px rgba(15, 23, 42, 0.16),
+    0 3px 8px -1px rgba(15, 23, 42, 0.10),
+    0 1px 0 rgba(255, 255, 255, 1) inset;
+  transition: transform 0.14s ease, box-shadow 0.14s ease;
+}
+
+.clay-button-pastel:hover, .morphic-button-light:hover, .apple-glass-button-light:hover {
+  transform: translateY(-1px);
+  box-shadow: 
+    0 16px 32px -3px rgba(15, 23, 42, 0.22),
+    0 6px 12px -1px rgba(15, 23, 42, 0.14),
+    0 1px 0 rgba(255, 255, 255, 1) inset;
+}
+
+.clay-button-pastel:active, .morphic-button-light:active, .apple-glass-button-light:active {
+  transform: translateY(1px);
+}
+
+/* 7. Floating Navigation Dock — Heavy optical liquid glass with deep bottom reflection */
+.nav-dock-3d, .morphic-nav-dock, .apple-glass-dock {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(255, 255, 255, 0.80) 100%);
+  backdrop-filter: blur(28px) saturate(200%);
+  -webkit-backdrop-filter: blur(28px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.94);
+  box-shadow: 
+    0 -26px 72px -10px rgba(15, 23, 42, 0.38),
+    0 -8px 24px -2px rgba(15, 23, 42, 0.20),
+    0 1px 0 0 rgba(255, 255, 255, 1) inset;
+}
+
+/* 8. Pill & Status Badges */
+.clay-pill-3d, .morphic-pill, .apple-glass-pill {
+  background: rgba(255, 255, 255, 0.90);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 
+    0 6px 16px -2px rgba(15, 23, 42, 0.12),
+    0 2px 6px -1px rgba(15, 23, 42, 0.08),
+    0 1px 0 rgba(255, 255, 255, 1) inset;
+}
+
+/* Deep Spatial Elevation Utilities */
+.shadow-deep-card {
+  box-shadow: 
+    0 32px 72px -12px rgba(15, 23, 42, 0.32),
+    0 16px 36px -6px rgba(15, 23, 42, 0.20),
+    0 4px 12px -2px rgba(15, 23, 42, 0.12);
+}
+
+.shadow-deep-modal {
+  box-shadow: 
+    0 54px 112px -16px rgba(15, 23, 42, 0.50),
+    0 26px 52px -8px rgba(15, 23, 42, 0.32),
+    0 8px 20px -2px rgba(15, 23, 42, 0.18);
+}
+
+.shadow-deep-floating {
+  box-shadow: 
+    0 28px 64px -8px rgba(15, 23, 42, 0.35),
+    0 12px 26px -4px rgba(15, 23, 42, 0.20);
+}
+
+/* 9. Input Field with Glass Recessed Depth */
+.input-3d, .morphic-input, .apple-glass-input {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04) inset;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.input-3d:focus, .morphic-input:focus, .apple-glass-input:focus {
+  border-color: #721c24;
+  box-shadow: 
+    0 0 0 3px rgba(114, 28, 36, 0.18),
+    0 2px 6px rgba(15, 23, 42, 0.04) inset;
+  background: #ffffff;
+  outline: none;
+}
+
+/* 10. Apple Cherry Accent Utilities */
+.cherry-button-primary, .copper-button-primary {
+  background: #721c24 !important;
+  color: #ffffff !important;
+  font-weight: 700;
+  border: 1px solid #5c131a;
+  box-shadow: 0 4px 14px rgba(114, 28, 36, 0.32);
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+.cherry-button-primary:hover, .copper-button-primary:hover {
+  background: #5c131a !important;
+  border-color: #460910;
+  transform: translateY(-1px);
+}
+.cherry-button-primary:active, .copper-button-primary:active {
+  background: #460910 !important;
+  transform: translateY(1px);
+}
+
+.cherry-badge, .copper-badge {
+  background: #f6f2f4;
+  color: #721c24;
+  border: 1px solid #d9c5cb;
+}
+
+/* 11. Spatial & Presets */
+.apple-3d-floating {
+  transform: none;
+}
+
+.apple-3d-icon-badge {
+  background: #ffffff;
+  border: 1px solid rgba(226, 232, 240, 1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* Soft Inner Specular and Cherry Rose Glows */
+.inner-warm-glow, .inner-cherry-glow {
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.9), inset 0 0 15px rgba(114, 28, 36, 0.08);
+}
+
+.inner-lavender-glow {
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.9), inset 0 0 15px rgba(99, 102, 241, 0.06);
+}
+
+.inner-blue-glow {
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.9), inset 0 0 15px rgba(59, 130, 246, 0.06);
+}
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes shakeError {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+.animate-shake {
+  animation: shakeError 0.35s ease-in-out;
+}
+
+@keyframes progressShine {
+  0% {
+    transform: translateX(120%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+.animate-progress-shine {
+  animation: progressShine 2.2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* ─── High-Performance Mobile Optimization ─── */
+* {
+  -webkit-text-size-adjust: 100%;
+}
+

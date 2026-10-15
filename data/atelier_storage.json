@@ -1,0 +1,2185 @@
+{
+  "studio": {
+    "id": "royal-barber-tehran",
+    "name": "آرایشگاه رویال",
+    "tagline": "رزرو آنلاین نوبت آرایشگاه، بدون تماس تلفنی",
+    "address": "تهران، خیابان نامجو بین کوچه ۵ و ۷",
+    "neighborhood": "",
+    "city": "تهران",
+    "phone": "۰۲۱-۲۲۳۳۴۴۵۵",
+    "conciergePhone": "۰۲۱-۲۲۳۳۴۴۵۵",
+    "email": "info@royalbarber.ir",
+    "openingHours": [
+      {
+        "dayOfWeek": "شنبه تا چهارشنبه",
+        "openTime": "۱۰:۰۰",
+        "closeTime": "۲۰:۰۰"
+      },
+      {
+        "dayOfWeek": "پنجشنبه و جمعه",
+        "openTime": "۱۰:۰۰",
+        "closeTime": "۲۲:۰۰"
+      }
+    ],
+    "operationalStatus": "open",
+    "valetServiceAvailable": false,
+    "valetInstructions": "",
+    "privateCourtyardCode": "",
+    "amenities": [
+      "رزرو آنلاین ۲۴ ساعته",
+      "یادآوری خودکار پیامکی",
+      "ثبت سوابق و سلیقه مشتری",
+      "نظافت و استریل کامل ابزارها",
+      "پذیرایی چای و قهوه"
+    ]
+  },
+  "appointments": [
+    {
+      "chairName": "صندلی اصلی",
+      "dayNumber": 15,
+      "barberName": "حامد افضلی",
+      "customerPhone": "09932132214",
+      "additionalAccoutrements": [],
+      "endTime": "11:45",
+      "date": "چهارشنبه، ۱۵ مهر",
+      "customerNotes": "",
+      "priceSummary": {
+        "hasDiscount": false,
+        "discountAmount": 0,
+        "originalTotal": 250000,
+        "total": 250000,
+        "lines": [
+          {
+            "id": "svc-svc-1",
+            "amount": 250000,
+            "label": "اصلاح موی کلاسیک",
+            "kind": "service"
+          }
+        ]
+      },
+      "chairId": "chair-01",
+      "appointmentNumber": "AV-8694",
+      "originalServicePrice": 250000,
+      "isVip": false,
+      "totalAmount": 250000,
+      "createdAt": "سه‌شنبه، ۱۴ مهر ۱۴۰۵",
+      "id": "apt-online-1791307684370",
+      "durationMinutes": 45,
+      "discountPercent": 0,
+      "service": {
+        "durationMinutes": 45,
+        "name": "اصلاح موی کلاسیک",
+        "sortOrder": 0,
+        "id": "svc-1",
+        "categoryId": "cat-hair",
+        "price": 250000,
+        "isActive": true
+      },
+      "beverage": {
+        "icon": "ban",
+        "description": "بدون پذیرایی",
+        "isAvailable": true,
+        "name": "بدون پذیرایی",
+        "category": "other",
+        "price": 0,
+        "id": "none"
+      },
+      "accoutrementsPrice": 0,
+      "servicePrice": 250000,
+      "startTime": "11:00",
+      "serviceId": "svc-1",
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "tipPercentage": 0,
+      "customerId": "client-1791051661887",
+      "barberId": "barber-ali-rezaei",
+      "depositAmount": 50000,
+      "bookingSource": "online",
+      "customerName": "mahdi salehi",
+      "discountAmount": 0,
+      "status": "cancelled",
+      "isQuietSession": false,
+      "tipAmount": 0,
+      "bookingTimestamp": "چهارشنبه، ۱۵ مهر · ساعت 11:00"
+    },
+    {
+      "beverage": {
+        "name": "بدون پذیرایی",
+        "price": 0,
+        "id": "none",
+        "description": "بدون پذیرایی",
+        "icon": "ban",
+        "category": "other",
+        "isAvailable": true
+      },
+      "discountAmount": 0,
+      "discountPercent": 0,
+      "servicePrice": 250000,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "tipAmount": 0,
+      "durationMinutes": 45,
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 20:00",
+      "isQuietSession": false,
+      "service": {
+        "name": "اصلاح موی کلاسیک",
+        "price": 250000,
+        "categoryId": "cat-hair",
+        "isActive": true,
+        "id": "svc-1",
+        "durationMinutes": 45,
+        "sortOrder": 0
+      },
+      "barberId": "barber-ali-rezaei",
+      "customerId": "client-1791051661887",
+      "startTime": "20:00",
+      "serviceId": "svc-1",
+      "customerNotes": "",
+      "customerName": "mahdi salehi",
+      "additionalAccoutrements": [],
+      "customerPhone": "09932132214",
+      "chairId": "chair-01",
+      "originalServicePrice": 250000,
+      "priceSummary": {
+        "discountAmount": 0,
+        "hasDiscount": false,
+        "originalTotal": 250000,
+        "total": 250000,
+        "lines": [
+          {
+            "kind": "service",
+            "label": "اصلاح موی کلاسیک",
+            "amount": 250000,
+            "id": "svc-svc-1"
+          }
+        ]
+      },
+      "createdAt": "یکشنبه، ۱۲ مهر ۱۴۰۵",
+      "depositAmount": 50000,
+      "status": "cancelled",
+      "bookingSource": "online",
+      "chairName": "صندلی اصلی",
+      "tipPercentage": 0,
+      "accoutrementsPrice": 0,
+      "dayNumber": 12,
+      "isVip": false,
+      "date": "یکشنبه، ۱۲ مهر",
+      "appointmentNumber": "AV-9018",
+      "endTime": "20:45",
+      "barberName": "حامد افضلی",
+      "id": "apt-online-1791104400561",
+      "totalAmount": 250000
+    },
+    {
+      "id": "apt-online-1791104297367",
+      "createdAt": "یکشنبه، ۱۲ مهر ۱۴۰۵",
+      "service": {
+        "price": 250000,
+        "name": "اصلاح موی کلاسیک",
+        "categoryId": "cat-hair",
+        "isActive": true,
+        "id": "svc-1",
+        "durationMinutes": 45,
+        "sortOrder": 0
+      },
+      "accoutrementsPrice": 0,
+      "customerName": "mahdi salehi",
+      "totalAmount": 250000,
+      "status": "cancelled",
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 18:00",
+      "barberName": "حامد افضلی",
+      "appointmentNumber": "AV-8887",
+      "chairName": "صندلی اصلی",
+      "dayNumber": 12,
+      "customerPhone": "09932132214",
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "servicePrice": 250000,
+      "customerNotes": "",
+      "date": "یکشنبه، ۱۲ مهر",
+      "isVip": false,
+      "barberId": "barber-ali-rezaei",
+      "bookingSource": "online",
+      "depositAmount": 50000,
+      "customerId": "client-1791051661887",
+      "tipAmount": 0,
+      "endTime": "18:45",
+      "additionalAccoutrements": [],
+      "isQuietSession": false,
+      "beverage": {
+        "id": "none",
+        "price": 0,
+        "description": "بدون پذیرایی",
+        "category": "other",
+        "icon": "ban",
+        "isAvailable": true,
+        "name": "بدون پذیرایی"
+      },
+      "startTime": "18:00",
+      "discountPercent": 0,
+      "durationMinutes": 45,
+      "chairId": "chair-01",
+      "serviceId": "svc-1",
+      "originalServicePrice": 250000,
+      "tipPercentage": 0,
+      "priceSummary": {
+        "originalTotal": 250000,
+        "total": 250000,
+        "lines": [
+          {
+            "amount": 250000,
+            "label": "اصلاح موی کلاسیک",
+            "kind": "service",
+            "id": "svc-svc-1"
+          }
+        ],
+        "hasDiscount": false,
+        "discountAmount": 0
+      },
+      "discountAmount": 0
+    },
+    {
+      "customerPhone": "09932132214",
+      "servicePrice": 250000,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "tipAmount": 0,
+      "customerId": "client-1791051661887",
+      "customerNotes": "",
+      "discountPercent": 0,
+      "durationMinutes": 45,
+      "barberId": "barber-ali-rezaei",
+      "endTime": "18:00",
+      "appointmentNumber": "AV-8734",
+      "originalServicePrice": 250000,
+      "totalAmount": 250000,
+      "date": "یکشنبه، ۱۲ مهر",
+      "chairId": "chair-01",
+      "additionalAccoutrements": [],
+      "customerName": "mahdi salehi",
+      "startTime": "17:15",
+      "beverage": {
+        "name": "بدون پذیرایی",
+        "isAvailable": true,
+        "category": "other",
+        "price": 0,
+        "description": "بدون پذیرایی",
+        "icon": "ban",
+        "id": "none"
+      },
+      "serviceId": "svc-1",
+      "isQuietSession": false,
+      "isVip": false,
+      "service": {
+        "name": "اصلاح موی کلاسیک",
+        "categoryId": "cat-hair",
+        "id": "svc-1",
+        "durationMinutes": 45,
+        "sortOrder": 0,
+        "price": 250000,
+        "isActive": true
+      },
+      "barberName": "حامد افضلی",
+      "createdAt": "یکشنبه، ۱۲ مهر ۱۴۰۵",
+      "tipPercentage": 0,
+      "discountAmount": 0,
+      "priceSummary": {
+        "total": 250000,
+        "lines": [
+          {
+            "id": "svc-svc-1",
+            "kind": "service",
+            "label": "اصلاح موی کلاسیک",
+            "amount": 250000
+          }
+        ],
+        "hasDiscount": false,
+        "originalTotal": 250000,
+        "discountAmount": 0
+      },
+      "bookingSource": "online",
+      "accoutrementsPrice": 0,
+      "id": "apt-online-1791104213773",
+      "depositAmount": 50000,
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 17:15",
+      "status": "cancelled",
+      "chairName": "صندلی اصلی",
+      "dayNumber": 12
+    },
+    {
+      "isVip": false,
+      "customerNotes": "",
+      "tipAmount": 0,
+      "barberName": "حامد افضلی",
+      "endTime": "17:15",
+      "discountAmount": 0,
+      "customerPhone": "09932132214",
+      "isQuietSession": false,
+      "barberId": "barber-ali-rezaei",
+      "servicePrice": 250000,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "status": "cancelled",
+      "date": "یکشنبه، ۱۲ مهر",
+      "serviceId": "svc-1",
+      "additionalAccoutrements": [],
+      "startTime": "16:30",
+      "chairId": "chair-01",
+      "beverage": {
+        "name": "بدون پذیرایی",
+        "isAvailable": true,
+        "category": "other",
+        "description": "بدون پذیرایی",
+        "icon": "ban",
+        "id": "none",
+        "price": 0
+      },
+      "customerName": "mahdi salehi",
+      "originalServicePrice": 250000,
+      "discountPercent": 0,
+      "tipPercentage": 0,
+      "priceSummary": {
+        "discountAmount": 0,
+        "lines": [
+          {
+            "kind": "service",
+            "label": "اصلاح موی کلاسیک",
+            "id": "svc-svc-1",
+            "amount": 250000
+          }
+        ],
+        "total": 250000,
+        "originalTotal": 250000,
+        "hasDiscount": false
+      },
+      "durationMinutes": 45,
+      "createdAt": "یکشنبه، ۱۲ مهر ۱۴۰۵",
+      "customerId": "client-1791051661887",
+      "totalAmount": 250000,
+      "service": {
+        "name": "اصلاح موی کلاسیک",
+        "isActive": true,
+        "durationMinutes": 45,
+        "sortOrder": 0,
+        "categoryId": "cat-hair",
+        "id": "svc-1",
+        "price": 250000
+      },
+      "appointmentNumber": "AV-9412",
+      "accoutrementsPrice": 0,
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 16:30",
+      "bookingSource": "online",
+      "dayNumber": 12,
+      "depositAmount": 50000,
+      "id": "apt-online-1791104019413",
+      "chairName": "صندلی اصلی"
+    },
+    {
+      "barberName": "حامد افضلی",
+      "accoutrementsPrice": 0,
+      "beverage": {
+        "name": "بدون پذیرایی",
+        "isAvailable": true,
+        "description": "بدون پذیرایی",
+        "price": 0,
+        "icon": "ban",
+        "id": "none",
+        "category": "other"
+      },
+      "endTime": "16:15",
+      "bookingSource": "online",
+      "customerName": "mahdi salehi",
+      "status": "cancelled",
+      "depositAmount": 50000,
+      "startTime": "15:30",
+      "serviceId": "svc-1",
+      "discountAmount": 0,
+      "barberId": "barber-ali-rezaei",
+      "tipAmount": 0,
+      "chairId": "chair-01",
+      "tipPercentage": 0,
+      "servicePrice": 250000,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "id": "apt-online-1791103997197",
+      "isQuietSession": false,
+      "date": "یکشنبه، ۱۲ مهر",
+      "service": {
+        "categoryId": "cat-hair",
+        "isActive": true,
+        "sortOrder": 0,
+        "id": "svc-1",
+        "price": 250000,
+        "durationMinutes": 45,
+        "name": "اصلاح موی کلاسیک"
+      },
+      "durationMinutes": 45,
+      "discountPercent": 0,
+      "chairName": "صندلی اصلی",
+      "appointmentNumber": "AV-8850",
+      "dayNumber": 12,
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 15:30",
+      "customerId": "client-1791051661887",
+      "originalServicePrice": 250000,
+      "customerNotes": "",
+      "priceSummary": {
+        "lines": [
+          {
+            "label": "اصلاح موی کلاسیک",
+            "amount": 250000,
+            "kind": "service",
+            "id": "svc-svc-1"
+          }
+        ],
+        "total": 250000,
+        "hasDiscount": false,
+        "discountAmount": 0,
+        "originalTotal": 250000
+      },
+      "totalAmount": 250000,
+      "additionalAccoutrements": [],
+      "customerPhone": "09932132214",
+      "createdAt": "یکشنبه، ۱۲ مهر ۱۴۰۵",
+      "isVip": false
+    },
+    {
+      "id": "apt-online-1791103890985",
+      "totalAmount": 250000,
+      "tipPercentage": 0,
+      "createdAt": "یکشنبه، ۱۲ مهر ۱۴۰۵",
+      "endTime": "15:30",
+      "barberId": "barber-ali-rezaei",
+      "barberName": "حامد افضلی",
+      "chairId": "chair-01",
+      "priceSummary": {
+        "discountAmount": 0,
+        "hasDiscount": false,
+        "originalTotal": 250000,
+        "total": 250000,
+        "lines": [
+          {
+            "id": "svc-svc-1",
+            "label": "اصلاح موی کلاسیک",
+            "kind": "service",
+            "amount": 250000
+          }
+        ]
+      },
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 14:45",
+      "bookingSource": "online",
+      "beverage": {
+        "category": "other",
+        "price": 0,
+        "name": "بدون پذیرایی",
+        "id": "none",
+        "isAvailable": true,
+        "icon": "ban",
+        "description": "بدون پذیرایی"
+      },
+      "chairName": "صندلی اصلی",
+      "depositAmount": 50000,
+      "dayNumber": 12,
+      "isVip": false,
+      "customerNotes": "",
+      "durationMinutes": 45,
+      "date": "یکشنبه، ۱۲ مهر",
+      "customerId": "client-1791051661887",
+      "service": {
+        "sortOrder": 0,
+        "name": "اصلاح موی کلاسیک",
+        "id": "svc-1",
+        "categoryId": "cat-hair",
+        "price": 250000,
+        "durationMinutes": 45,
+        "isActive": true
+      },
+      "discountPercent": 0,
+      "tipAmount": 0,
+      "appointmentNumber": "AV-9615",
+      "customerName": "mahdi salehi",
+      "customerPhone": "09932132214",
+      "originalServicePrice": 250000,
+      "accoutrementsPrice": 0,
+      "isQuietSession": false,
+      "startTime": "14:45",
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "serviceId": "svc-1",
+      "status": "cancelled",
+      "additionalAccoutrements": [],
+      "servicePrice": 250000,
+      "discountAmount": 0
+    },
+    {
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "servicePrice": 250000,
+      "accoutrementsPrice": 0,
+      "tipAmount": 0,
+      "date": "یکشنبه، ۱۲ مهر",
+      "customerNotes": "",
+      "endTime": "13:45",
+      "customerPhone": "09932132214",
+      "barberId": "barber-ali-rezaei",
+      "customerId": "client-1791051661887",
+      "id": "apt-online-1791102993959",
+      "customerName": "mahdi salehi",
+      "status": "cancelled",
+      "serviceId": "svc-1",
+      "startTime": "13:00",
+      "chairId": "chair-01",
+      "beverage": {
+        "name": "بدون پذیرایی",
+        "id": "none",
+        "category": "other",
+        "icon": "ban",
+        "isAvailable": true,
+        "description": "بدون پذیرایی",
+        "price": 0
+      },
+      "appointmentNumber": "AV-9674",
+      "tipPercentage": 0,
+      "isQuietSession": false,
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 13:00",
+      "priceSummary": {
+        "originalTotal": 250000,
+        "total": 250000,
+        "lines": [
+          {
+            "kind": "service",
+            "id": "svc-svc-1",
+            "amount": 250000,
+            "label": "اصلاح موی کلاسیک"
+          }
+        ],
+        "hasDiscount": false,
+        "discountAmount": 0
+      },
+      "createdAt": "یکشنبه، ۱۲ مهر ۱۴۰۵",
+      "discountAmount": 0,
+      "totalAmount": 250000,
+      "additionalAccoutrements": [],
+      "service": {
+        "name": "اصلاح موی کلاسیک",
+        "id": "svc-1",
+        "categoryId": "cat-hair",
+        "price": 250000,
+        "isActive": true,
+        "sortOrder": 0,
+        "durationMinutes": 45
+      },
+      "durationMinutes": 45,
+      "isVip": false,
+      "discountPercent": 0,
+      "depositAmount": 50000,
+      "dayNumber": 12,
+      "originalServicePrice": 250000,
+      "barberName": "حامد افضلی",
+      "chairName": "صندلی اصلی",
+      "bookingSource": "online"
+    },
+    {
+      "barberName": "حامد افضلی",
+      "bookingSource": "online",
+      "isQuietSession": false,
+      "chairName": "صندلی اصلی",
+      "depositAmount": 50000,
+      "dayNumber": 15,
+      "barberId": "barber-ali-rezaei",
+      "originalServicePrice": 250000,
+      "isVip": false,
+      "additionalAccoutrements": [],
+      "discountAmount": 0,
+      "service": {
+        "id": "svc-1",
+        "price": 250000,
+        "categoryId": "cat-hair",
+        "name": "اصلاح موی کلاسیک",
+        "durationMinutes": 45,
+        "sortOrder": 0,
+        "isActive": true
+      },
+      "appointmentNumber": "AV-9952",
+      "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+      "priceSummary": {
+        "originalTotal": 250000,
+        "lines": [
+          {
+            "label": "اصلاح موی کلاسیک",
+            "id": "svc-svc-1",
+            "amount": 250000,
+            "kind": "service"
+          }
+        ],
+        "total": 250000,
+        "discountAmount": 0,
+        "hasDiscount": false
+      },
+      "beverage": {
+        "category": "other",
+        "description": "بدون پذیرایی",
+        "isAvailable": true,
+        "icon": "ban",
+        "price": 0,
+        "id": "none",
+        "name": "بدون پذیرایی"
+      },
+      "tipPercentage": 0,
+      "startTime": "10:15",
+      "serviceId": "svc-1",
+      "chairId": "chair-01",
+      "id": "apt-online-1791057855891",
+      "status": "cancelled",
+      "customerName": "mahdi salehi",
+      "customerId": "client-1791051661887",
+      "customerPhone": "09932132214",
+      "bookingTimestamp": "چهارشنبه، ۱۵ مهر · ساعت 10:15",
+      "endTime": "11:00",
+      "durationMinutes": 45,
+      "totalAmount": 250000,
+      "customerNotes": "",
+      "discountPercent": 0,
+      "servicePrice": 250000,
+      "date": "چهارشنبه، ۱۵ مهر",
+      "accoutrementsPrice": 0,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "tipAmount": 0
+    },
+    {
+      "tipAmount": 0,
+      "tipPercentage": 0,
+      "discountPercent": 0,
+      "barberId": "barber-ali-rezaei",
+      "id": "apt-online-1791056421976",
+      "durationMinutes": 45,
+      "customerId": "client-1791051661887",
+      "chairId": "chair-01",
+      "beverage": {
+        "name": "بدون پذیرایی",
+        "price": 0,
+        "id": "none",
+        "description": "بدون پذیرایی",
+        "category": "other",
+        "icon": "ban",
+        "isAvailable": true
+      },
+      "endTime": "13:00",
+      "accoutrementsPrice": 0,
+      "depositAmount": 50000,
+      "priceSummary": {
+        "discountAmount": 0,
+        "total": 250000,
+        "lines": [
+          {
+            "kind": "service",
+            "id": "svc-svc-1",
+            "amount": 250000,
+            "label": "اصلاح موی کلاسیک"
+          }
+        ],
+        "hasDiscount": false,
+        "originalTotal": 250000
+      },
+      "bookingSource": "online",
+      "serviceId": "svc-1",
+      "startTime": "12:15",
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 12:15",
+      "isQuietSession": false,
+      "customerNotes": "",
+      "customerName": "mahdi salehi",
+      "additionalAccoutrements": [],
+      "originalServicePrice": 250000,
+      "barberName": "حامد افضلی",
+      "appointmentNumber": "AV-8706",
+      "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+      "customerPhone": "09932132214",
+      "discountAmount": 0,
+      "totalAmount": 250000,
+      "isVip": false,
+      "status": "cancelled",
+      "date": "یکشنبه، ۱۲ مهر",
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "servicePrice": 250000,
+      "dayNumber": 12,
+      "chairName": "صندلی اصلی",
+      "service": {
+        "name": "اصلاح موی کلاسیک",
+        "categoryId": "cat-hair",
+        "isActive": true,
+        "price": 250000,
+        "durationMinutes": 45,
+        "sortOrder": 0,
+        "id": "svc-1"
+      }
+    },
+    {
+      "status": "pending",
+      "durationMinutes": 45,
+      "discountPercent": 0,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "serviceId": "svc-1",
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 19:15",
+      "servicePrice": 250000,
+      "startTime": "19:15",
+      "additionalAccoutrements": [],
+      "customerPhone": "09932132214",
+      "tipAmount": 0,
+      "isVip": false,
+      "paymentStatus": "pending",
+      "customerName": "mahdi salehi",
+      "customerNotes": "",
+      "barberName": "حامد افضلی",
+      "service": {
+        "categoryId": "cat-hair",
+        "isActive": true,
+        "id": "svc-1",
+        "price": 250000,
+        "durationMinutes": 45,
+        "sortOrder": 0,
+        "name": "اصلاح موی کلاسیک"
+      },
+      "accoutrementsPrice": 0,
+      "priceSummary": {
+        "discountAmount": 0,
+        "lines": [
+          {
+            "amount": 250000,
+            "id": "svc-svc-1",
+            "label": "اصلاح موی کلاسیک",
+            "kind": "service"
+          }
+        ],
+        "total": 250000,
+        "hasDiscount": false,
+        "originalTotal": 250000
+      },
+      "originalServicePrice": 250000,
+      "totalAmount": 250000,
+      "paymentDetails": {
+        "statusMessage": "در انتظار پرداخت مراجع",
+        "paymentLink": "https://zarinp.al/781447",
+        "authority": "A000000000000000000000000000musrhncg",
+        "amountRials": 2500000,
+        "amount": 250000,
+        "method": "zarinpal"
+      },
+      "bookingSource": "online",
+      "id": "apt-online-1791054305960",
+      "depositAmount": 50000,
+      "isQuietSession": false,
+      "discountAmount": 0,
+      "dayNumber": 12,
+      "barberId": "barber-ali-rezaei",
+      "chairId": "chair-01",
+      "chairName": "صندلی اصلی",
+      "customerId": "client-1791051661887",
+      "appointmentNumber": "AV-9332",
+      "endTime": "20:00",
+      "date": "یکشنبه، ۱۲ مهر",
+      "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+      "beverage": {
+        "category": "other",
+        "name": "بدون پذیرایی",
+        "description": "بدون پذیرایی",
+        "isAvailable": true,
+        "icon": "ban",
+        "id": "none",
+        "price": 0
+      },
+      "tipPercentage": 0
+    },
+    {
+      "customerName": "mahdi salehi",
+      "customerNotes": "",
+      "isQuietSession": false,
+      "tipAmount": 0,
+      "appointmentNumber": "AV-8705",
+      "artisan": "حامد افضلی",
+      "durationMinutes": 45,
+      "originalServicePrice": 250000,
+      "discountPercent": 0,
+      "reservationNumber": "AV-8705",
+      "totalAmount": 250000,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "id": "apt-online-1791052470316",
+      "customerId": "client-1791051661887",
+      "servicePrice": 250000,
+      "paymentAuthority": "SIM-1791052470486-1338",
+      "serviceId": "svc-1",
+      "service": {
+        "price": 250000,
+        "isActive": true,
+        "categoryId": "cat-hair",
+        "name": "اصلاح موی کلاسیک",
+        "durationMinutes": 45,
+        "id": "svc-1",
+        "sortOrder": 0
+      },
+      "lockExpiresAt": "2026-10-03T18:44:30.486Z",
+      "selectedTime": "11:30",
+      "tipPercentage": 0,
+      "chairId": "chair-01",
+      "location": "آرایشگاه رویال · تهران، خیابان نامجو بین کوچه ۵ و ۷",
+      "suite": "صندلی اصلی",
+      "priceSummary": {
+        "total": 250000,
+        "lines": [
+          {
+            "kind": "service",
+            "amount": 250000,
+            "label": "اصلاح موی کلاسیک",
+            "id": "svc-svc-1"
+          }
+        ],
+        "originalTotal": 250000,
+        "discountAmount": 0,
+        "hasDiscount": false
+      },
+      "status": "pending_deposit",
+      "bookingSource": "online",
+      "dayNumber": 12,
+      "selectedDate": "یکشنبه، ۱۲ مهر",
+      "accoutrementsPrice": 0,
+      "discountAmount": 0,
+      "customerPhone": "09932132214",
+      "barberId": "barber-ali-rezaei",
+      "paymentStatus": "pending",
+      "additionalAccoutrements": [],
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 11:30",
+      "paymentAmount": 50000,
+      "startTime": "11:30",
+      "beverage": {
+        "isAvailable": true,
+        "icon": "ban",
+        "category": "other",
+        "description": "بدون پذیرایی",
+        "id": "none",
+        "price": 0,
+        "name": "بدون پذیرایی"
+      },
+      "isVip": false,
+      "updatedAt": "2026-10-03T18:34:30.486Z",
+      "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+      "depositPaid": false,
+      "date": "یکشنبه، ۱۲ مهر",
+      "endTime": "12:15",
+      "barberName": "حامد افضلی",
+      "depositAmount": 50000,
+      "paymentMethod": "zarinpal",
+      "chairName": "صندلی اصلی"
+    },
+    {
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "chairId": "chair-01",
+      "servicePrice": 250000,
+      "accoutrementsPrice": 0,
+      "additionalAccoutrements": [],
+      "tipAmount": 0,
+      "durationMinutes": 45,
+      "discountPercent": 0,
+      "customerName": "mahdi salehi",
+      "customerNotes": "",
+      "appointmentNumber": "AV-8080",
+      "originalServicePrice": 250000,
+      "customerId": "client-1791051661887",
+      "startTime": "10:45",
+      "serviceId": "svc-1",
+      "date": "یکشنبه، ۱۲ مهر",
+      "id": "apt-online-1791051834786",
+      "customerPhone": "09932132214",
+      "endTime": "11:30",
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 10:45",
+      "totalAmount": 250000,
+      "barberId": "barber-ali-rezaei",
+      "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+      "priceSummary": {
+        "lines": [
+          {
+            "id": "svc-svc-1",
+            "amount": 250000,
+            "label": "اصلاح موی کلاسیک",
+            "kind": "service"
+          }
+        ],
+        "total": 250000,
+        "hasDiscount": false,
+        "originalTotal": 250000,
+        "discountAmount": 0
+      },
+      "bookingSource": "online",
+      "depositAmount": 50000,
+      "status": "cancelled",
+      "service": {
+        "name": "اصلاح موی کلاسیک",
+        "sortOrder": 0,
+        "categoryId": "cat-hair",
+        "isActive": true,
+        "durationMinutes": 45,
+        "id": "svc-1",
+        "price": 250000
+      },
+      "chairName": "صندلی اصلی",
+      "dayNumber": 12,
+      "beverage": {
+        "description": "بدون پذیرایی",
+        "icon": "ban",
+        "id": "none",
+        "price": 0,
+        "isAvailable": true,
+        "category": "other",
+        "name": "بدون پذیرایی"
+      },
+      "isQuietSession": false,
+      "tipPercentage": 0,
+      "discountAmount": 0,
+      "isVip": false,
+      "barberName": "حامد افضلی"
+    },
+    {
+      "customerPhone": "09932132214",
+      "priceSummary": {
+        "originalTotal": 250000,
+        "discountAmount": 0,
+        "total": 250000,
+        "lines": [
+          {
+            "amount": 250000,
+            "kind": "service",
+            "label": "اصلاح موی کلاسیک",
+            "id": "svc-svc-1"
+          }
+        ],
+        "hasDiscount": false
+      },
+      "originalServicePrice": 250000,
+      "service": {
+        "id": "svc-1",
+        "name": "اصلاح موی کلاسیک",
+        "categoryId": "cat-hair",
+        "isActive": true,
+        "sortOrder": 0,
+        "price": 250000,
+        "durationMinutes": 45
+      },
+      "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+      "status": "cancelled",
+      "customerNotes": "",
+      "totalAmount": 250000,
+      "accoutrementsPrice": 0,
+      "chairName": "صندلی اصلی",
+      "dayNumber": 12,
+      "discountAmount": 0,
+      "additionalAccoutrements": [],
+      "durationMinutes": 45,
+      "isQuietSession": false,
+      "id": "apt-online-1791051661887",
+      "discountPercent": 0,
+      "customerId": "client-1791051661887",
+      "barberId": "barber-ali-rezaei",
+      "appointmentNumber": "AV-8711",
+      "servicePrice": 250000,
+      "tipAmount": 0,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "endTime": "10:45",
+      "tipPercentage": 0,
+      "isVip": false,
+      "beverage": {
+        "category": "other",
+        "icon": "ban",
+        "price": 0,
+        "isAvailable": true,
+        "name": "بدون پذیرایی",
+        "description": "بدون پذیرایی",
+        "id": "none"
+      },
+      "bookingSource": "online",
+      "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 10:00",
+      "barberName": "حامد افضلی",
+      "startTime": "10:00",
+      "depositAmount": 50000,
+      "chairId": "chair-01",
+      "serviceId": "svc-1",
+      "customerName": "mahdi salehi",
+      "date": "یکشنبه، ۱۲ مهر"
+    },
+    {
+      "serviceId": "service-haircut-beard",
+      "servicePrice": 220000,
+      "startTime": "16:00",
+      "dayNumber": 11,
+      "chairName": "صندلی اصلی",
+      "durationMinutes": 60,
+      "bookingSource": "online",
+      "status": "confirmed",
+      "customerName": "بهرام رادان",
+      "totalAmount": 220000,
+      "id": "apt-test-customer-b",
+      "customerId": "client-bahram-2",
+      "endTime": "17:00",
+      "barberName": "علی رضایی",
+      "customerPhone": "09129998877",
+      "appointmentNumber": "AV-9002",
+      "date": "شنبه، ۱۱ مهر ۱۴۰۵",
+      "service": {
+        "durationMinutes": 60,
+        "price": 220000,
+        "id": "service-haircut-beard",
+        "name": "کوتاهی مو + اصلاح ریش"
+      }
+    },
+    {
+      "endTime": "19:10",
+      "customerId": "client-sohrab-1",
+      "bookingSource": "online",
+      "appointmentNumber": "AV-9001",
+      "serviceId": "service-haircut",
+      "service": {
+        "price": 150000,
+        "name": "کوتاهی مو",
+        "durationMinutes": 40,
+        "id": "service-haircut"
+      },
+      "startTime": "18:30",
+      "customerName": "سهراب سپهری",
+      "dayNumber": 10,
+      "barberName": "علی رضایی",
+      "chairName": "صندلی اصلی",
+      "date": "جمعه، ۱۰ مهر ۱۴۰۵",
+      "durationMinutes": 40,
+      "customerPhone": "09121112233",
+      "totalAmount": 150000,
+      "status": "confirmed",
+      "id": "apt-test-customer-a",
+      "servicePrice": 150000
+    },
+    {
+      "dayNumber": 15,
+      "customerName": "تست مستقیم",
+      "status": "confirmed",
+      "id": "test-direct-write-1",
+      "startTime": "16:00"
+    },
+    {
+      "status": "confirmed",
+      "id": "test-apt-1",
+      "dayNumber": 12,
+      "customerName": "تست مشتری",
+      "startTime": "14:00",
+      "serviceId": "srv-1"
+    },
+    {
+      "id": "apt-online-1791582865339",
+      "appointmentNumber": "AV-8245",
+      "customerId": "client-1791051661887",
+      "customerName": "mahdi salehi",
+      "customerPhone": "09932132214",
+      "isVip": false,
+      "serviceId": "svc-1",
+      "service": {
+        "id": "svc-1",
+        "categoryId": "cat-hair",
+        "name": "اصلاح موی کلاسیک",
+        "price": 250000,
+        "durationMinutes": 45,
+        "isActive": true,
+        "sortOrder": 0
+      },
+      "barberId": "barber-ali-rezaei",
+      "barberName": "حامد افضلی",
+      "chairId": "chair-01",
+      "chairName": "صندلی اصلی",
+      "date": "شنبه، ۱۸ مهر",
+      "dayNumber": 18,
+      "startTime": "10:00",
+      "endTime": "10:45",
+      "durationMinutes": 45,
+      "servicePrice": 250000,
+      "originalServicePrice": 250000,
+      "discountAmount": 0,
+      "discountPercent": 0,
+      "accoutrementsPrice": 0,
+      "tipPercentage": 0,
+      "tipAmount": 0,
+      "totalAmount": 250000,
+      "depositAmount": 15000,
+      "additionalAccoutrements": [],
+      "beverage": {
+        "id": "none",
+        "name": "بدون پذیرایی",
+        "icon": "ban",
+        "price": 0,
+        "description": "بدون پذیرایی",
+        "category": "other",
+        "isAvailable": true
+      },
+      "customerNotes": "",
+      "isQuietSession": false,
+      "stylingNotes": "رزرو آنلاین مراجع",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "bookingSource": "online",
+      "createdAt": "شنبه، ۱۸ مهر ۱۴۰۵",
+      "bookingTimestamp": "شنبه، ۱۸ مهر · ساعت 10:00",
+      "priceSummary": {
+        "total": 250000,
+        "originalTotal": 250000,
+        "discountAmount": 0,
+        "hasDiscount": false,
+        "lines": [
+          {
+            "id": "svc-svc-1",
+            "label": "اصلاح موی کلاسیک",
+            "amount": 250000,
+            "kind": "service"
+          }
+        ]
+      }
+    }
+  ],
+  "pastAppointments": [
+    {
+      "status": "completed",
+      "startTime": "16:00",
+      "serviceName": "کوتاهی کلاسیک رویال",
+      "endTime": "17:00",
+      "id": "apt-test-1790966623581",
+      "price": 350000,
+      "date": "1405/07/15",
+      "customerPhone": "09129876543",
+      "customerName": "رضا کریمی",
+      "servicePrice": 350000,
+      "updatedAt": "2026-10-02T18:43:45.196Z"
+    }
+  ],
+  "customers": [
+    {
+      "avatarUrl": "",
+      "lastVisitDate": "شنبه، ۱۴ مهر",
+      "updatedAt": "2026-10-03T18:52:37.542Z",
+      "id": "client-1790966623598",
+      "name": "رضا کریمی",
+      "phone": "09129876543",
+      "visitCount": 2,
+      "totalSpend": 350000,
+      "roleOrTitle": "مشتری جدید",
+      "memberTier": "مهمان رویال",
+      "createdAt": "2026-10-02T18:43:43.598Z"
+    },
+    {
+      "name": "امیرحسین رضایی",
+      "phone": "09121112233",
+      "totalSpend": 150000,
+      "visitCount": 2,
+      "updatedAt": "2026-10-03T18:52:55.558Z",
+      "memberTier": "عضو ویژه VIP",
+      "lastVisitDate": "شنبه، ۱۴ مهر",
+      "id": "cust-test-1790966623982",
+      "createdAt": "2026-10-02T18:43:43.987Z"
+    },
+    {
+      "updatedAt": "2026-10-02T18:44:10.954Z",
+      "visitCount": 5,
+      "totalSpend": 1500000,
+      "avatarUrl": "",
+      "memberTier": "عضو طلایی",
+      "phone": "09120000001",
+      "id": "cust-1790966650084",
+      "lastVisitDate": "1405/07/20",
+      "name": "سهراب سپهری",
+      "roleOrTitle": "مشتری جدید",
+      "createdAt": "2026-10-02T18:44:09.660Z"
+    },
+    {
+      "visitCount": 1,
+      "totalSpend": 220000,
+      "id": "client-bahram-2",
+      "lastVisitDate": "شنبه، ۱۱ مهر ۱۴۰۵",
+      "createdAt": "2026-10-02T19:24:58.258Z",
+      "phone": "09129998877",
+      "memberTier": "مهمان رویال",
+      "name": "بهرام رادان",
+      "avatarUrl": "",
+      "roleOrTitle": "مشتری جدید",
+      "updatedAt": "2026-10-02T19:24:58.258Z"
+    },
+    {
+      "phone": "09932132214",
+      "lastVisitDate": "یکشنبه، ۱۲ مهر",
+      "name": "mahdi salehi",
+      "memberId": "#AV-6146",
+      "preferredBarberId": "barber-ali-rezaei",
+      "memberTier": "عضو آنلاین آرایشگاه",
+      "isPermanentClient": false,
+      "id": "client-1791051661887",
+      "roleOrTitle": "مشتری جدید",
+      "email": "mahdi.salehi@client.atelier",
+      "createdAt": "2026-10-03T18:21:02.058Z",
+      "totalVisits": 0,
+      "joinedDate": "مهر ۱۴۰۳",
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%20160%22%20width%3D%22160%22%20height%3D%22160%22%3E%0A%20%20%20%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2240%22%20fill%3D%22%23FFCA28%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(20%2C%2020)%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M25%2035%20L40%2060%20L20%2070%20Z%22%20fill%3D%22%23FF8F00%22%2F%3E%0A%20%20%20%3Cpath%20d%3D%22M95%2035%20L80%2060%20L100%2070%20Z%22%20fill%3D%22%23FF8F00%22%2F%3E%0A%20%20%20%3Cellipse%20cx%3D%2260%22%20cy%3D%2268%22%20rx%3D%2238%22%20ry%3D%2232%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%3Ccircle%20cx%3D%2245%22%20cy%3D%2262%22%20r%3D%224.5%22%20fill%3D%22%2337474F%22%2F%3E%0A%20%20%20%3Ccircle%20cx%3D%2275%22%20cy%3D%2262%22%20r%3D%224.5%22%20fill%3D%22%2337474F%22%2F%3E%0A%20%20%20%3Cpolygon%20points%3D%2260%2C74%2054%2C68%2066%2C68%22%20fill%3D%22%23FF8F00%22%2F%3E%0A%20%20%20%3Cpath%20d%3D%22M54%2077%20Q60%2082%2066%2077%22%20fill%3D%22none%22%20stroke%3D%22%2337474F%22%20stroke-width%3D%222.5%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%20%3Cline%20x1%3D%2220%22%20y1%3D%2265%22%20x2%3D%2238%22%20y2%3D%2267%22%20stroke%3D%22%23B0BEC5%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%3Cline%20x1%3D%2220%22%20y1%3D%2273%22%20x2%3D%2238%22%20y2%3D%2272%22%20stroke%3D%22%23B0BEC5%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%3Cline%20x1%3D%22100%22%20y1%3D%2265%22%20x2%3D%2282%22%20y2%3D%2267%22%20stroke%3D%22%23B0BEC5%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%3Cline%20x1%3D%22100%22%20y1%3D%2273%22%20x2%3D%2282%22%20y2%3D%2272%22%20stroke%3D%22%23B0BEC5%22%20stroke-width%3D%222%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+      "preferredSuite": "صندلی اصلی",
+      "hospitality": {
+        "beveragePreference": "بدون پذیرایی",
+        "conversationLevel": "customary"
+      },
+      "updatedAt": "2026-10-06T17:28:04.685Z",
+      "visitCount": 1,
+      "totalSpend": 0,
+      "isVip": false
+    }
+  ],
+  "services": [
+    {
+      "isActive": true,
+      "categoryId": "cat-hair",
+      "sortOrder": 0,
+      "id": "svc-1",
+      "price": 250000,
+      "durationMinutes": 45,
+      "name": "اصلاح موی کلاسیک"
+    },
+    {
+      "name": "کوتاهی فید / اسکین‌فید",
+      "isActive": true,
+      "sortOrder": 1,
+      "id": "svc-2",
+      "categoryId": "cat-hair",
+      "durationMinutes": 45,
+      "price": 300000
+    },
+    {
+      "sortOrder": 0,
+      "name": "اصلاح ریش و خط ریش",
+      "id": "svc-3",
+      "price": 150000,
+      "isActive": true,
+      "categoryId": "cat-beard",
+      "durationMinutes": 30
+    },
+    {
+      "id": "svc-4",
+      "durationMinutes": 30,
+      "sortOrder": 1,
+      "isActive": true,
+      "price": 200000,
+      "categoryId": "cat-beard",
+      "name": "اصلاح صورت با تیغ داغ"
+    },
+    {
+      "sortOrder": 0,
+      "isActive": true,
+      "durationMinutes": 120,
+      "price": 1200000,
+      "categoryId": "cat-color",
+      "name": "رنگ موی کامل",
+      "id": "svc-5"
+    },
+    {
+      "price": 1800000,
+      "categoryId": "cat-color",
+      "id": "svc-6",
+      "isActive": true,
+      "durationMinutes": 180,
+      "sortOrder": 1,
+      "name": "لایت و دکلره"
+    },
+    {
+      "price": 800000,
+      "durationMinutes": 60,
+      "categoryId": "cat-skin",
+      "isActive": true,
+      "sortOrder": 0,
+      "name": "پاکسازی پوست صورت",
+      "id": "svc-7"
+    },
+    {
+      "categoryId": "cat-combo",
+      "durationMinutes": 240,
+      "sortOrder": 0,
+      "isActive": true,
+      "price": 4500000,
+      "name": "پکیج عروس داماد",
+      "id": "svc-8"
+    }
+  ],
+  "categories": [
+    {
+      "isActive": true,
+      "id": "cat-hair",
+      "name": "اصلاح مو",
+      "sortOrder": 0
+    },
+    {
+      "name": "اصلاح صورت",
+      "isActive": true,
+      "sortOrder": 1,
+      "id": "cat-beard"
+    },
+    {
+      "id": "cat-color",
+      "sortOrder": 2,
+      "isActive": true,
+      "name": "رنگ و لایت"
+    },
+    {
+      "name": "پوست و درمان",
+      "sortOrder": 3,
+      "id": "cat-skin",
+      "isActive": true
+    },
+    {
+      "id": "cat-combo",
+      "sortOrder": 4,
+      "isActive": true,
+      "name": "پکیج‌های ترکیبی"
+    }
+  ],
+  "chairs": [
+    {
+      "id": "chair-01",
+      "chairNumber": "۰۱",
+      "name": "صندلی اصلی",
+      "floor": "سالن اصلی",
+      "assignedBarberId": "barber-ali-rezaei",
+      "assignedBarberName": "علی رضایی",
+      "status": "normal",
+      "isVip": false,
+      "mirrorType": "آینه کلاسیک با نورپردازی استاندارد",
+      "notes": "سرآرایشگر",
+      "amenities": [
+        "صندلی برقی هیدرولیک",
+        "حوضچه شستشو"
+      ]
+    }
+  ],
+  "barbers": [
+    {
+      "id": "barber-ali-rezaei",
+      "bio": "سرآرایشگر و متخصص فرم‌دهی مو و اصلاح کلاسیک و مدرن با بیش از ۸ سال سابقه حرفه‌ای.",
+      "title": "آرایشگر",
+      "certifications": [
+        "مدرک بین‌المللی پیرایش مردانه",
+        "متخصص فید و استایلینگ"
+      ],
+      "email": "ali@royalbarber.ir",
+      "workingDays": [
+        "شنبه",
+        "یکشنبه",
+        "دوشنبه",
+        "سه‌شنبه",
+        "چهارشنبه",
+        "پنج‌شنبه",
+        "جمعه"
+      ],
+      "specialties": [
+        "کوتاهی کلاسیک و مدرن",
+        "اصلاح با تیغ سنتی",
+        "فرم‌دهی تخصصی ریش"
+      ],
+      "rating": 5,
+      "totalClientsServed": 1850,
+      "experienceYears": 8,
+      "avatarUrl": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20160%20160%22%20width%3D%22160%22%20height%3D%22160%22%3E%0A%20%20%20%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2240%22%20fill%3D%22%23FF7043%22%2F%3E%0A%20%20%20%20%3Cg%20transform%3D%22translate(20%2C%2020)%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M60%2010%20L85%2055%20L75%2080%20L60%2090%20L45%2080%20L35%2055%20Z%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%3Cpath%20d%3D%22M20%2030%20L45%2055%20L35%2085%20L15%2065%20Z%22%20fill%3D%22%23FFCCBC%22%2F%3E%0A%20%20%20%3Cpath%20d%3D%22M100%2030%20L75%2055%20L85%2085%20L105%2065%20Z%22%20fill%3D%22%23FFCCBC%22%2F%3E%0A%20%20%20%3Cpath%20d%3D%22M35%2055%20L60%2090%20L85%2055%20Z%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%3Cpolygon%20points%3D%2260%2C90%2052%2C78%2068%2C78%22%20fill%3D%22%23263238%22%2F%3E%0A%20%20%20%3Ccircle%20cx%3D%2246%22%20cy%3D%2262%22%20r%3D%224%22%20fill%3D%22%23263238%22%2F%3E%0A%20%20%20%3Ccircle%20cx%3D%2274%22%20cy%3D%2262%22%20r%3D%224%22%20fill%3D%22%23263238%22%2F%3E%0A%20%20%20%3Cpath%20d%3D%22M60%2090%20L48%20108%20L72%20108%20Z%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%20%20%3C%2Fsvg%3E",
+      "name": "حامد افضلی",
+      "phone": "۰۹۱۲۱۱۱۱۱۱۱",
+      "workingHours": [
+        {
+          "dayOfWeek": "شنبه",
+          "openTime": "10:00",
+          "closeTime": "20:30",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": "یکشنبه",
+          "openTime": "10:00",
+          "closeTime": "20:30",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": "دوشنبه",
+          "openTime": "10:00",
+          "closeTime": "20:30",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": "سه‌شنبه",
+          "openTime": "10:00",
+          "closeTime": "20:30",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": "چهارشنبه",
+          "openTime": "10:00",
+          "closeTime": "20:30",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": "پنج‌شنبه",
+          "openTime": "10:00",
+          "closeTime": "22:00",
+          "isClosed": false
+        },
+        {
+          "dayOfWeek": "جمعه",
+          "openTime": "12:00",
+          "closeTime": "18:00",
+          "isClosed": false
+        }
+      ],
+      "assignedChairId": "chair-01",
+      "isAvailableToday": true
+    }
+  ],
+  "products": [],
+  "orders": [],
+  "notifications": [
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 11:00 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791307684370",
+      "id": "notif-1791583667474-936",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 10:15 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791057855891",
+      "id": "notif-1791583667108-603",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 20:00 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791104400561",
+      "id": "notif-1791583666724-17",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 18:00 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791104297367",
+      "id": "notif-1791583666391-463",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 17:15 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791104213773",
+      "id": "notif-1791583666058-881",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 16:30 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791104019413",
+      "id": "notif-1791583665408-111",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 15:30 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791103997197",
+      "id": "notif-1791583665075-940",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 14:45 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791103890985",
+      "id": "notif-1791583664591-299",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 13:00 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791102993959",
+      "id": "notif-1791583663958-326",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 12:15 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791056421976",
+      "id": "notif-1791583663141-437",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 10:45 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791051834786",
+      "id": "notif-1791583662058-435",
+      "read": false
+    },
+    {
+      "type": "appointment_cancelled",
+      "title": "لغو نوبت: mahdi salehi",
+      "message": "نوبت ساعت 10:00 لغو گردید.",
+      "timestamp": "هم‌اکنون",
+      "isRead": false,
+      "priority": "high",
+      "entityType": "appointment",
+      "entityId": "apt-online-1791051661887",
+      "id": "notif-1791583659975-644",
+      "read": false
+    },
+    {
+      "entityType": "appointment",
+      "id": "notif-1790969098258",
+      "title": "رزرو آنلاین جدید: بهرام رادان",
+      "isRead": false,
+      "createdAt": "2026-10-02T19:24:58.258Z",
+      "entityId": "apt-test-customer-b",
+      "priority": "high",
+      "timestamp": "هم‌اکنون",
+      "type": "appointment_new",
+      "message": "نوبت برای تاریخ شنبه، ۱۱ مهر ۱۴۰۵ ساعت 16:00 ثبت گردید."
+    },
+    {
+      "type": "appointment_new",
+      "title": "رزرو آنلاین جدید: سهراب سپهری",
+      "createdAt": "2026-10-02T19:24:35.397Z",
+      "timestamp": "هم‌اکنون",
+      "entityId": "apt-test-customer-a",
+      "priority": "high",
+      "id": "notif-1790969075397",
+      "message": "نوبت برای تاریخ جمعه، ۱۰ مهر ۱۴۰۵ ساعت 18:30 ثبت گردید.",
+      "isRead": false,
+      "entityType": "appointment"
+    }
+  ],
+  "accoutrements": [
+    {
+      "durationMinutes": 15,
+      "name": "شستشو و ویتامینه",
+      "description": "شستشوی حرفه‌ای با شامپوی تقویتی",
+      "price": 80000,
+      "selected": false,
+      "id": "acc-wash"
+    },
+    {
+      "description": "مرتب‌سازی و تغذیه ریش",
+      "price": 100000,
+      "id": "acc-beard",
+      "selected": false,
+      "name": "فرم‌دهی و روغن ریش",
+      "durationMinutes": 15
+    },
+    {
+      "selected": false,
+      "id": "acc-peel",
+      "price": 120000,
+      "description": "پاکسازی عمیق پوست صورت",
+      "durationMinutes": 20,
+      "name": "ماسک لایه‌بردار"
+    },
+    {
+      "selected": false,
+      "durationMinutes": 15,
+      "price": 90000,
+      "description": "کاهش استرس و تقویت ریشه مو",
+      "id": "acc-scalp",
+      "name": "ماساژ سر با اسطوخودوس"
+    }
+  ],
+  "beverageOptions": [
+    {
+      "isAvailable": true,
+      "id": "tea",
+      "name": "چای اعلا لاهیجان و هل",
+      "category": "hot",
+      "description": "چای دمی درجه یک همراه با نبات زعفرانی و هل تازه",
+      "price": 35000,
+      "icon": "coffee"
+    },
+    {
+      "price": 55000,
+      "description": "اسپرسوی تازه رست با دانه ۱۰۰٪ عربیکا تک‌خاستگاه",
+      "isAvailable": true,
+      "icon": "coffee",
+      "id": "espresso",
+      "category": "hot",
+      "name": "قهوه اسپرسو دوبل"
+    },
+    {
+      "id": "latte",
+      "icon": "coffee",
+      "price": 65000,
+      "description": "شیر بخارداده‌شده با اسپرسو تازه و سیروپ کارامل",
+      "isAvailable": true,
+      "category": "hot",
+      "name": "کافه لاته و کارامل"
+    },
+    {
+      "isAvailable": true,
+      "id": "fresh-juice",
+      "price": 60000,
+      "name": "آبمیوه طبیعی فصل",
+      "description": "آب پرتقال یا انار طبیعی تازه فشرده‌شده",
+      "category": "cold",
+      "icon": "glass-water"
+    },
+    {
+      "price": 45000,
+      "isAvailable": true,
+      "icon": "utensils",
+      "description": "کروسان تازه پخت کره‌ای با شکلات یا کوکی بادام",
+      "id": "croissant",
+      "name": "کروسان فرانسوی و کوکی گرم",
+      "category": "snack"
+    },
+    {
+      "icon": "glass-water",
+      "price": 15000,
+      "category": "cold",
+      "name": "آب معدنی خنک",
+      "description": "آب معدنی کوهستان به همراه برش لیموی تازه",
+      "isAvailable": true,
+      "id": "water"
+    }
+  ],
+  "lastUpdated": "2026-10-09T22:17:47.651Z",
+  "testKey": "verification_passed",
+  "updatedAt": "2026-10-02T18:41:56.146Z",
+  "carts": {
+    "cust-123": {
+      "items": [
+        {
+          "productId": "prod-test-1790966624476",
+          "quantity": 2
+        }
+      ]
+    },
+    "cust-1790966650084": {
+      "items": [
+        {
+          "productId": "prod-1790966650310",
+          "quantity": 1
+        }
+      ]
+    }
+  },
+  "settings": {
+    "profile": {
+      "name": "آرایشگاه رویال",
+      "tagline": "رزرو آنلاین نوبت آرایشگاه، بدون تماس تلفنی",
+      "masterName": "علی رضایی",
+      "masterTitle": "سرآرایشگر و مدیر آرایشگاه",
+      "phone": "۰۲۱-۲۲۳۳۴۴۵۵",
+      "conciergePhone": "۰۲۱-۲۲۳۳۴۴۵۵",
+      "email": "info@royalbarber.ir",
+      "address": "تهران، خیابان نامجو بین کوچه ۵ و ۷",
+      "neighborhood": "",
+      "city": "تهران",
+      "operationalStatus": "open",
+      "privateCourtyardCode": "",
+      "valetServiceAvailable": false,
+      "valetInstructions": "",
+      "amenities": [
+        "رزرو آنلاین ۲۴ ساعته",
+        "یادآوری خودکار پیامکی",
+        "ثبت سوابق و سلیقه مشتری",
+        "نظافت و استریل کامل ابزارها",
+        "پذیرایی چای و قهوه"
+      ]
+    },
+    "announcement": {
+      "headline": "",
+      "body": "",
+      "tag": "اطلاعیه سالن",
+      "isActive": false
+    },
+    "operatingHours": [
+      {
+        "dayOfWeek": "شنبه",
+        "openTime": "10:00",
+        "closeTime": "20:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": "یکشنبه",
+        "openTime": "10:00",
+        "closeTime": "20:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": "دوشنبه",
+        "openTime": "10:00",
+        "closeTime": "20:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": "سه‌شنبه",
+        "openTime": "10:00",
+        "closeTime": "20:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": "چهارشنبه",
+        "openTime": "10:00",
+        "closeTime": "20:30",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": "پنج‌شنبه",
+        "openTime": "10:00",
+        "closeTime": "22:00",
+        "isClosed": false
+      },
+      {
+        "dayOfWeek": "جمعه",
+        "openTime": "12:00",
+        "closeTime": "18:00",
+        "isClosed": false
+      }
+    ],
+    "policies": {
+      "cancellationWindowHours": 24,
+      "bookingCutoffHours": 2,
+      "maxBookingHorizonDays": 30,
+      "depositAmount": 15000,
+      "policyNotice": "لغو یا جابجایی نوبت تا ۲۴ ساعت پیش از زمان رزرو شده بدون کسر ودیعه انجام می‌پذیرد."
+    },
+    "financialTargets": {
+      "today": 850,
+      "week": 4200,
+      "month": 18000,
+      "year": 220000,
+      "custom": 5000
+    },
+    "notificationPreferences": {
+      "newOnlineBooking": true,
+      "appointmentCancellation": true,
+      "appointmentReschedule": true,
+      "newBoutiqueOrder": false,
+      "paymentConfirmation": true,
+      "lowInventoryAlerts": false
+    },
+    "hospitalityEnabled": true,
+    "autoConfirmOnlineBookings": true,
+    "lastAuditCheck": "2026-10-02T18:43:44.964Z"
+  },
+  "users": [],
+  "payments": [
+    {
+      "targetId": "apt-online-1791104400561",
+      "description": "رزرو آنلاین اصلاح موی کلاسیک - کد AV-9018",
+      "customerName": "mahdi salehi",
+      "createdAt": "2026-10-04T09:00:01.618Z",
+      "currency": "IRT",
+      "updatedAt": "2026-10-04T09:00:01.618Z",
+      "isSimulation": true,
+      "amount": 250000,
+      "targetType": "appointment",
+      "simulationReason": "محدودیت IP در پنل زرین‌پال فعال است. برای پرداخت واقعی بانکی، تیک محدودیت IP را در my.zarinpal.com غیرفعال کنید.",
+      "isVerified": false,
+      "status": "pending",
+      "authority": "SIM_1791104401618_YOTEPG",
+      "customerPhone": "09932132214"
+    },
+    {
+      "currency": "IRT",
+      "targetType": "appointment",
+      "createdAt": "2026-10-04T08:53:39.888Z",
+      "customerPhone": "09932132214",
+      "customerName": "mahdi salehi",
+      "status": "pending",
+      "authority": "S00000000000000000000000000000m7qoyy",
+      "targetId": "apt-online-1791104019413",
+      "description": "رزرو آنلاین اصلاح موی کلاسیک - کد AV-9412",
+      "isVerified": false,
+      "amount": 250000,
+      "updatedAt": "2026-10-04T08:53:39.888Z"
+    },
+    {
+      "customerName": "mahdi salehi",
+      "isVerified": false,
+      "amount": 250000,
+      "createdAt": "2026-10-04T08:53:17.879Z",
+      "targetId": "apt-online-1791103997197",
+      "updatedAt": "2026-10-04T08:53:17.880Z",
+      "customerPhone": "09932132214",
+      "description": "رزرو آنلاین اصلاح موی کلاسیک - کد AV-8850",
+      "status": "pending",
+      "currency": "IRT",
+      "targetType": "appointment",
+      "authority": "S00000000000000000000000000000q17wrj"
+    },
+    {
+      "updatedAt": "2026-10-04T08:51:31.735Z",
+      "targetType": "appointment",
+      "status": "pending",
+      "currency": "IRT",
+      "customerName": "mahdi salehi",
+      "authority": "S000000000000000000000000000005mv38y",
+      "customerPhone": "09932132214",
+      "description": "رزرو آنلاین اصلاح موی کلاسیک - کد AV-9615",
+      "createdAt": "2026-10-04T08:51:31.735Z",
+      "amount": 250000,
+      "targetId": "apt-online-1791103890985",
+      "isVerified": false
+    },
+    {
+      "customerPhone": "09932132214",
+      "status": "pending",
+      "createdAt": "2026-10-04T08:36:34.690Z",
+      "currency": "IRT",
+      "targetType": "appointment",
+      "description": "رزرو آنلاین اصلاح موی کلاسیک - کد AV-9674",
+      "updatedAt": "2026-10-04T08:36:34.690Z",
+      "isVerified": false,
+      "amount": 250000,
+      "targetId": "apt-online-1791102993959",
+      "customerName": "mahdi salehi",
+      "authority": "S00000000000000000000000000000j8yq8v"
+    },
+    {
+      "currency": "IRT",
+      "status": "failed",
+      "updatedAt": "2026-10-04T08:31:17.423Z",
+      "authority": "S000000000000000000000000000005mv5lw",
+      "isVerified": false,
+      "targetId": "apt-online-1791057855891",
+      "amount": 250000,
+      "targetType": "appointment",
+      "customerName": "علیرضا رضایی",
+      "customerPhone": "09123456789",
+      "description": "رزرو آنلاین اصلاح موی کلاسیک - کد AV-9952",
+      "createdAt": "2026-10-04T08:31:12.749Z"
+    },
+    {
+      "description": "پرداخت بیعانه نوبت اصلاح موی کلاسیک در سالن رویال - mahdi salehi",
+      "authority": "SIM-1791052470486-1338",
+      "appointmentData": {
+        "reservationNumber": "AV-8705",
+        "barberId": "barber-ali-rezaei",
+        "tipPercentage": 0,
+        "startTime": "11:30",
+        "stylingNotes": "رزرو آنلاین مراجع",
+        "service": {
+          "sortOrder": 0,
+          "name": "اصلاح موی کلاسیک",
+          "isActive": true,
+          "id": "svc-1",
+          "categoryId": "cat-hair",
+          "price": 250000,
+          "durationMinutes": 45
+        },
+        "discountPercent": 0,
+        "lockExpiresAt": "2026-10-03T18:44:30.486Z",
+        "servicePrice": 250000,
+        "serviceId": "svc-1",
+        "durationMinutes": 45,
+        "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 11:30",
+        "additionalAccoutrements": [],
+        "beverage": {
+          "name": "بدون پذیرایی",
+          "description": "بدون پذیرایی",
+          "category": "other",
+          "isAvailable": true,
+          "id": "none",
+          "price": 0,
+          "icon": "ban"
+        },
+        "artisan": "حامد افضلی",
+        "customerName": "mahdi salehi",
+        "selectedDate": "یکشنبه، ۱۲ مهر",
+        "paymentMethod": "zarinpal",
+        "tipAmount": 0,
+        "depositAmount": 50000,
+        "appointmentNumber": "AV-8705",
+        "bookingSource": "online",
+        "customerId": "client-1791051661887",
+        "chairName": "صندلی اصلی",
+        "isQuietSession": false,
+        "dayNumber": 12,
+        "accoutrementsPrice": 0,
+        "totalAmount": 250000,
+        "location": "آرایشگاه رویال · تهران، خیابان نامجو بین کوچه ۵ و ۷",
+        "customerNotes": "",
+        "id": "apt-online-1791052470316",
+        "date": "یکشنبه، ۱۲ مهر",
+        "paymentStatus": "pending",
+        "suite": "صندلی اصلی",
+        "originalServicePrice": 250000,
+        "endTime": "12:15",
+        "priceSummary": {
+          "originalTotal": 250000,
+          "lines": [
+            {
+              "kind": "service",
+              "amount": 250000,
+              "id": "svc-svc-1",
+              "label": "اصلاح موی کلاسیک"
+            }
+          ],
+          "total": 250000,
+          "hasDiscount": false,
+          "discountAmount": 0
+        },
+        "customerPhone": "09932132214",
+        "discountAmount": 0,
+        "selectedTime": "11:30",
+        "barberName": "حامد افضلی",
+        "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+        "status": "pending_deposit",
+        "chairId": "chair-01",
+        "isVip": false
+      },
+      "isSandbox": true,
+      "customerPhone": "09932132214",
+      "appointmentId": "apt-online-1791052470316",
+      "status": "pending",
+      "currency": "IRT",
+      "lockExpiresAt": "2026-10-03T18:44:30.486Z",
+      "amount": 50000,
+      "customerName": "mahdi salehi",
+      "merchantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "createdAt": "2026-10-03T18:34:30.486Z",
+      "isSimulation": true
+    },
+    {
+      "createdAt": "2026-10-03T18:23:55.092Z",
+      "description": "پرداخت آنلاین نوبت اصلاح موی کلاسیک در سالن رویال - mahdi salehi",
+      "currency": "IRT",
+      "appointmentData": {
+        "appointmentNumber": "AV-8080",
+        "barberId": "barber-ali-rezaei",
+        "serviceId": "svc-1",
+        "startTime": "10:45",
+        "selectedTime": "10:45",
+        "customerNotes": "",
+        "originalServicePrice": 250000,
+        "barberName": "حامد افضلی",
+        "service": {
+          "id": "svc-1",
+          "name": "اصلاح موی کلاسیک",
+          "isActive": true,
+          "durationMinutes": 45,
+          "price": 250000,
+          "sortOrder": 0,
+          "categoryId": "cat-hair"
+        },
+        "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 10:45",
+        "customerPhone": "09932132214",
+        "accoutrementsPrice": 0,
+        "isQuietSession": false,
+        "status": "confirmed",
+        "beverage": {
+          "price": 0,
+          "name": "بدون پذیرایی",
+          "category": "other",
+          "id": "none",
+          "description": "بدون پذیرایی",
+          "icon": "ban",
+          "isAvailable": true
+        },
+        "tipAmount": 0,
+        "artisan": "حامد افضلی",
+        "reservationNumber": "AV-8080",
+        "priceSummary": {
+          "discountAmount": 0,
+          "hasDiscount": false,
+          "originalTotal": 250000,
+          "total": 250000,
+          "lines": [
+            {
+              "label": "اصلاح موی کلاسیک",
+              "kind": "service",
+              "id": "svc-svc-1",
+              "amount": 250000
+            }
+          ]
+        },
+        "date": "یکشنبه، ۱۲ مهر",
+        "discountAmount": 0,
+        "location": "آرایشگاه رویال · تهران، خیابان نامجو بین کوچه ۵ و ۷",
+        "selectedDate": "یکشنبه، ۱۲ مهر",
+        "dayNumber": 12,
+        "tipPercentage": 0,
+        "chairName": "صندلی اصلی",
+        "customerName": "mahdi salehi",
+        "id": "apt-online-1791051834786",
+        "customerId": "client-1791051661887",
+        "endTime": "11:30",
+        "suite": "صندلی اصلی",
+        "additionalAccoutrements": [],
+        "servicePrice": 250000,
+        "stylingNotes": "رزرو آنلاین مراجع",
+        "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+        "depositAmount": 50000,
+        "discountPercent": 0,
+        "bookingSource": "online",
+        "isVip": false,
+        "totalAmount": 250000,
+        "durationMinutes": 45,
+        "chairId": "chair-01"
+      },
+      "status": "pending",
+      "customerPhone": "09932132214",
+      "appointmentId": "apt-online-1791051834786",
+      "isSimulation": true,
+      "amount": 50000,
+      "merchantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "customerName": "mahdi salehi",
+      "authority": "SIM-1791051835092-7833",
+      "isSandbox": true
+    },
+    {
+      "status": "pending",
+      "customerName": "mahdi salehi",
+      "currency": "IRT",
+      "customerPhone": "09932132214",
+      "appointmentId": "apt-online-1791051661887",
+      "createdAt": "2026-10-03T18:21:02.147Z",
+      "isSimulation": true,
+      "appointmentData": {
+        "service": {
+          "price": 250000,
+          "sortOrder": 0,
+          "id": "svc-1",
+          "durationMinutes": 45,
+          "categoryId": "cat-hair",
+          "isActive": true,
+          "name": "اصلاح موی کلاسیک"
+        },
+        "additionalAccoutrements": [],
+        "location": "آرایشگاه رویال · تهران، خیابان نامجو بین کوچه ۵ و ۷",
+        "bookingTimestamp": "یکشنبه، ۱۲ مهر · ساعت 10:00",
+        "priceSummary": {
+          "originalTotal": 250000,
+          "hasDiscount": false,
+          "lines": [
+            {
+              "amount": 250000,
+              "kind": "service",
+              "id": "svc-svc-1",
+              "label": "اصلاح موی کلاسیک"
+            }
+          ],
+          "total": 250000,
+          "discountAmount": 0
+        },
+        "tipAmount": 0,
+        "status": "confirmed",
+        "barberName": "حامد افضلی",
+        "customerPhone": "09932132214",
+        "isQuietSession": false,
+        "selectedTime": "10:00",
+        "accoutrementsPrice": 0,
+        "startTime": "10:00",
+        "serviceId": "svc-1",
+        "artisan": "حامد افضلی",
+        "customerNotes": "",
+        "discountAmount": 0,
+        "totalAmount": 250000,
+        "discountPercent": 0,
+        "durationMinutes": 45,
+        "stylingNotes": "رزرو آنلاین مراجع",
+        "customerId": "client-1791051661887",
+        "barberId": "barber-ali-rezaei",
+        "servicePrice": 250000,
+        "bookingSource": "online",
+        "depositAmount": 50000,
+        "createdAt": "شنبه، ۱۱ مهر ۱۴۰۵",
+        "endTime": "10:45",
+        "suite": "صندلی اصلی",
+        "appointmentNumber": "AV-8711",
+        "date": "یکشنبه، ۱۲ مهر",
+        "id": "apt-online-1791051661887",
+        "originalServicePrice": 250000,
+        "chairName": "صندلی اصلی",
+        "customerName": "mahdi salehi",
+        "selectedDate": "یکشنبه، ۱۲ مهر",
+        "chairId": "chair-01",
+        "beverage": {
+          "isAvailable": true,
+          "icon": "ban",
+          "description": "بدون پذیرایی",
+          "id": "none",
+          "price": 0,
+          "category": "other",
+          "name": "بدون پذیرایی"
+        },
+        "dayNumber": 12,
+        "reservationNumber": "AV-8711",
+        "tipPercentage": 0,
+        "isVip": false
+      },
+      "merchantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "authority": "SIM-1791051662147-3359",
+      "isSandbox": true,
+      "description": "پرداخت آنلاین نوبت اصلاح موی کلاسیک در سالن رویال - mahdi salehi",
+      "amount": 50000
+    },
+    {
+      "appointmentData": {
+        "customerPhone": "09121234567",
+        "id": "test-123",
+        "customerName": "علی رضایی"
+      },
+      "authority": "SIM-1791051561568-4261",
+      "amount": 50000,
+      "isSandbox": true,
+      "customerName": "علی رضایی",
+      "isSimulation": true,
+      "merchantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "cardPan": "502229******5995",
+      "appointmentId": "test-123",
+      "customerPhone": "09121234567",
+      "currency": "IRT",
+      "description": "تست پرداخت زرین‌پال",
+      "refId": "62536783",
+      "createdAt": "2026-10-03T18:19:21.568Z",
+      "status": "paid",
+      "verifiedAt": "2026-10-03T18:19:25.266Z"
+    }
+  ],
+  "test": true
+}

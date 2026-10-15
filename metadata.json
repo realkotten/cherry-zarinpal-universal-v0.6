@@ -1,0 +1,8 @@
+{
+  "name": "hamed afzali ",
+  "description": "سامانه هوشمند رزرو آنلاین نوبت آرایشگاه حامد افضلی؛ انتخاب خدمات پیرایش، مشاهده زمان‌های خالی و دریافت نوبت فوری به‌صورت ۲۴ ساعته بدون نیاز به تماس تلفنی.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
